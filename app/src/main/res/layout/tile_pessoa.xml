@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/nomeTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/valorReceberTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Valor a Receber" />
+
+    <TextView
+        android:id="@+id/valorPagoTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Valor Pago" />
+
+</LinearLayout>
